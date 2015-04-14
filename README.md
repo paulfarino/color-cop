@@ -1,4 +1,5 @@
 # ColorCop
+Outputs which SCSS files within your current path have Hex codes
 
 ## Installation
 
