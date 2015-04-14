@@ -17,3 +17,6 @@ Or install it yourself as:
 ## Usage
 
     $ color-cop
+    
+-------------
+Brought to you by [Paul Farino](https://github.com/paulfarino) and [Mark McDonald](https://github.com/MarkyMarkMcDonald)
