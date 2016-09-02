@@ -10,7 +10,7 @@ module Color
 
         files_names.select do |file_name|
           if file_name =~ /^.*\.scss$/
-            File.read(file_name) =~ /#\w{3,6}/
+            File.read(file_name) =~ /#\w{3,6}/ || File.read(file_name) =~ rgb\((\d{1,3}),\s*(\d{1,3}),\s*(\d{1,3})\)
           else
             false
           end
