@@ -13,6 +13,9 @@ When a file contains hex codes
       .container: {
         color: #000000;
       }
+      .row {
+        color: rbg(200, 200, 100);
+      }
     """
     When I run `color-cop`
     Then the output should contain "main.scss"
